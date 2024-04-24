@@ -21,4 +21,5 @@ hoặc
 flutter packages pub publish
 ```
 Khi cần update version thì chỉ cần điều chỉnh code và version trong **pubspec.yaml**
+
 Xem chi tiết [tại đây](https://viblo.asia/p/flutter-huong-dan-dua-plugin-len-pubdev-LzD5dMjoKjY)
