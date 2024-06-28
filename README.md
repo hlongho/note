@@ -1,4 +1,5 @@
-# Đổi tên app flutter
+# Flutter EXP
+## Đổi tên app flutter
 ### Thay đổi tên trong file AndroidManifest.xml (cho Android)
 Mở file android/app/src/main/AndroidManifest.xml và tìm dòng sau:
 ```
@@ -16,5 +17,5 @@ Mở file ios/Runner/Info.plist và tìm dòng sau:
 ```
 Thay đổi giá trị cũ <string> thành tên mới cho ứng dụng của bạn.
 
-# Đổi icon app
+## Đổi icon app
 Xem chi tiết [tại đây](https://pub.dev/packages/flutter_launcher_icons)
