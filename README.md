@@ -122,7 +122,7 @@ jobs:
           python3 upload_to_gdrive.py
 ```
 ## Bước 4: Thiết lập thông tin đăng nhập API của Google Drive
-### Tạo tài khoản dịch vụ trên Google Cloud
+### 1. Tạo tài khoản dịch vụ trên Google Cloud
 #### Truy cập Google Cloud Console:
 
 [Mở Google Cloud Console](https://console.cloud.google.com/?hl=vi).
@@ -138,7 +138,7 @@ Nhấn vào menu dự án ở phía trên cùng của trang, sau đó nhấn "Ne
 - Nhấn "Create Credentials" và chọn "Service account".
 - Điền thông tin cho tài khoản dịch vụ và tạo nó.
 - Trong bước "Create key", chọn JSON và nhấn "Create". Tệp JSON sẽ được tải xuống máy tính của bạn.
-### Tạo và chia sẻ thư mục Google Drive
+### 2. Tạo và chia sẻ thư mục Google Drive
 #### Tạo thư mục trên Google Drive:
 
 - Mở Google Drive.
@@ -151,7 +151,7 @@ Nhấn vào menu dự án ở phía trên cùng của trang, sau đó nhấn "Ne
 #### Lấy ID của thư mục:
 
 Mở thư mục và sao chép phần ID từ URL của thư mục (chuỗi ký tự sau folders/).
-### Thêm thông tin đăng nhập vào GitHub Secrets
+### 3. Thêm thông tin đăng nhập vào GitHub Secrets
 #### Mở kho lưu trữ trên GitHub:
 
 Truy cập vào kho lưu trữ của bạn trên GitHub.
