@@ -69,7 +69,7 @@ Sau khi GitHub Pages đã được kích hoạt và deploy thành công, bạn c
 
 ## Bước 2: Thiết lập GitHub Actions
 1. Tạo thư mục .github/workflows trong gốc của kho lưu trữ của bạn.
-2 Tạo một tệp YAML mới trong thư mục này, ví dụ flutter.yml.
+2. Tạo một tệp YAML mới trong thư mục này, ví dụ flutter.yml.
 
 ## Bước 3: Cấu hình tệp YAML cho GitHub Actions
 Dưới đây là một mẫu tệp flutter.yml:
