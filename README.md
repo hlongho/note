@@ -123,51 +123,51 @@ jobs:
 ```
 ## Bước 4: Thiết lập thông tin đăng nhập API của Google Drive
 ### 1. Tạo tài khoản dịch vụ trên Google Cloud
-##### Truy cập Google Cloud Console:
+#### Truy cập Google Cloud Console:
 
 [Mở Google Cloud Console](https://console.cloud.google.com/?hl=vi).
-##### Tạo dự án mới:
+#### Tạo dự án mới:
 Nhấn vào menu dự án ở phía trên cùng của trang, sau đó nhấn "New Project" và điền thông tin cần thiết.
-##### Kích hoạt Google Drive API:
+#### Kích hoạt Google Drive API:
 
 - Vào "APIs & Services" > "Library".
 - Tìm kiếm "Google Drive API" và nhấn vào "Enable".
-##### Tạo thông tin đăng nhập:
+#### Tạo thông tin đăng nhập:
 
 - Đi tới "APIs & Services" > "Credentials".
 - Nhấn "Create Credentials" và chọn "Service account".
 - Điền thông tin cho tài khoản dịch vụ và tạo nó.
 - Trong bước "Create key", chọn JSON và nhấn "Create". Tệp JSON sẽ được tải xuống máy tính của bạn.
 ### 2. Tạo và chia sẻ thư mục Google Drive
-##### Tạo thư mục trên Google Drive:
+#### Tạo thư mục trên Google Drive:
 
 - Mở Google Drive.
 - Nhấn "New" > "Folder" và đặt tên cho thư mục.
-##### Chia sẻ thư mục với tài khoản dịch vụ:
+#### Chia sẻ thư mục với tài khoản dịch vụ:
 
 - Nhấp chuột phải vào thư mục và chọn "Share".
 - Nhập email của tài khoản dịch vụ từ tệp JSON (email thường có dạng [email protected]).
 - Đặt quyền "Editor" và nhấn "Send".
-##### Lấy ID của thư mục:
+#### Lấy ID của thư mục:
 
 Mở thư mục và sao chép phần ID từ URL của thư mục (chuỗi ký tự sau folders/).
 ### 3. Thêm thông tin đăng nhập vào GitHub Secrets
-##### Mở kho lưu trữ trên GitHub:
+#### Mở kho lưu trữ trên GitHub:
 
 Truy cập vào kho lưu trữ của bạn trên GitHub.
-##### Đi tới "Settings":
+#### Đi tới "Settings":
 
 Nhấn vào "Settings" ở góc phải trên cùng.
-##### Thêm Secrets:
+#### Thêm Secrets:
 
 - Trong "Settings", chọn "Secrets and variables" > "Actions".
 - Nhấn "New repository secret".
-##### Thêm GDRIVE_CREDENTIALS:
+#### Thêm GDRIVE_CREDENTIALS:
 
 - Tên secret: GDRIVE_CREDENTIALS.
 - Giá trị: Mở tệp JSON đã tải xuống và sao chép toàn bộ nội dung vào đây.
 - Nhấn "Add secret".
-##### Thêm GDRIVE_FOLDER_ID:
+#### Thêm GDRIVE_FOLDER_ID:
 
 - Tên secret: GDRIVE_FOLDER_ID.
 - Giá trị: Dán ID của thư mục Google Drive.
