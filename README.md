@@ -64,8 +64,8 @@ Sau khi GitHub Pages đã được kích hoạt và deploy thành công, bạn c
 # Thiết lập một pipeline CI/CD với GitHub Actions để xây dựng APK cho ứng dụng Flutter và lưu trữ vào Google Drive
 
 ## Bước 1: Tạo kho lưu trữ GitHub và thêm mã nguồn Flutter
-- Tạo một kho lưu trữ mới trên GitHub nếu bạn chưa có.
-- Đẩy mã nguồn Flutter của bạn lên kho lưu trữ này.
+1. Tạo một kho lưu trữ mới trên GitHub nếu bạn chưa có.
+2. Đẩy mã nguồn Flutter của bạn lên kho lưu trữ này.
 
 ## Bước 2: Thiết lập GitHub Actions
 - Tạo thư mục .github/workflows trong gốc của kho lưu trữ của bạn.
