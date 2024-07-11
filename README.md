@@ -97,11 +97,11 @@ cherry-pick với 1 loạt commit lần lượt cạnh nhau (bao gồm commit_id
 ```
 git cherry-pick commit_id1^..commit_id5
 ```
-# check code đã thay đổi
+# Check code đã thay đổi
 ```
 git diff
 ```
-# show code 
+# Show code 
 show last commit
 ```
 git show
