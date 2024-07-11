@@ -6,6 +6,9 @@ git add .
 git commit -m "nội dung commit"
 ```
 ```
+git commit --amend -m "thay đổi mô tả của commit gần nhất"
+```
+```
 git push
 ```
 ```
