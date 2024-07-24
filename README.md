@@ -113,3 +113,13 @@ show commit chỉ định với commit_id
 ```
 git show commit_id
 ```
+
+# Thay đổi url repository
+Kiểm tra URL hiện tại của remote repository
+```
+git remote -v
+```
+Thay đổi URL của remote repository
+```
+git remote set-url origin URL_mới_của_repository
+```
