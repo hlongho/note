@@ -123,3 +123,7 @@ Thay đổi URL của remote repository
 ```
 git remote set-url origin URL_mới_của_repository
 ```
+Thay đổi URL của remote repository với token trong trường hợp cần clone
+```
+git remote set-url origin https://<token>@github.com/<username>/<repo>
+```
