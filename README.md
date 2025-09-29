@@ -127,3 +127,17 @@ Thay đổi URL của remote repository với token trong trường hợp cần 
 ```
 git remote set-url origin https://<token>@github.com/<username>/<repo>
 ```
+
+# Thay đổi url repository trong trường hợp private
+```
+git remote -v
+```
+```
+git remote remove origin
+```
+```
+git remote set-url origin https://<USERNAME>@github.com/<USERNAME>/<REPO>.git
+```
+```
+git fetch origin
+```
